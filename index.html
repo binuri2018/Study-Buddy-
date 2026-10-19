@@ -38,6 +38,7 @@
           <li><a href="#milestones">Milestones</a></li>
           <li><a href="#documents">Documents</a></li>
           <li><a href="#presentations">Presentations</a></li>
+          <li><a href="#thesis">Thesis</a></li>
           <li><a href="#about">About</a></li>
           <li><a class="nav__cta" href="#contact">Contact</a></li>
         </ul>
@@ -60,11 +61,6 @@
           <a class="btn btn--primary" href="#domain">Explore the work</a>
           <a class="btn btn--ghost" href="#documents">Download resources</a>
         </div>
-        <p class="hero__note">Research focus: STEM education, generative AI, affective computing, and multimodal synthesis — built with semantic HTML, modern CSS, and minimal JavaScript.</p>
-      </div>
-      <div class="hero__scroll" aria-hidden="true">
-        <span>Scroll</span>
-        <span class="hero__scroll-line"></span>
       </div>
     </section>
 
@@ -169,10 +165,10 @@
           <div class="timeline__card">
             <div class="timeline__head">
               <h3 class="timeline__title">Final viva</h3>
-              <span class="badge badge--pending">Pending</span>
+              <span class="badge badge--done">Completed</span>
             </div>
             <p class="timeline__desc">Final thesis defense, end-to-end platform demonstration, and submission.</p>
-            <time class="timeline__date" datetime="2026-04">2026 (scheduled)</time>
+            <time class="timeline__date" datetime="2026-04">2026</time>
           </div>
         </li>
       </ol>
@@ -182,7 +178,7 @@
     <section class="section section--documents" id="documents" aria-labelledby="documents-heading">
       <div class="section__header reveal">
         <h2 class="section__title" id="documents-heading">Documents</h2>
-        <p class="section__lede">Official project publications and presentation documents available in the <code>resources</code> folder. Space is reserved for the final report upon completion.</p>
+        <p class="section__lede">Official project publications, presentations, and reports available for download directly from the <code>resources</code> archive.</p>
       </div>
       <div class="doc-grid">
         <article class="doc-card glass-panel reveal">
@@ -211,9 +207,15 @@
         </article>
         <article class="doc-card glass-panel reveal" style="--delay: 0.32s">
           <div class="doc-card__type">PDF</div>
-          <h3 class="doc-card__title">Final report</h3>
-          <p class="doc-card__meta">Space reserved: add <code>final-report.pdf</code> upon thesis submission</p>
-          <a class="doc-card__dl" href="resources/final-report.pdf" download>Pending submission <span class="doc-card__arrow" aria-hidden="true">↗</span></a>
+          <h3 class="doc-card__title">Final presentation deck</h3>
+          <p class="doc-card__meta">Comprehensive final defense deck presenting all four core AI research modules</p>
+          <a class="doc-card__dl" href="resources/final%20presenation.pdf" download>Download <span class="doc-card__arrow" aria-hidden="true">↘</span></a>
+        </article>
+        <article class="doc-card glass-panel reveal" style="--delay: 0.4s">
+          <div class="doc-card__type">PDF</div>
+          <h3 class="doc-card__title">Final group thesis report</h3>
+          <p class="doc-card__meta">R26-IT-009 unified research dissertation covering multimodal architecture &amp; evaluations</p>
+          <a class="doc-card__dl" href="resources/thesis-%20R26-IT-009.pdf" download>Download <span class="doc-card__arrow" aria-hidden="true">↘</span></a>
         </article>
       </div>
     </section>
@@ -287,24 +289,121 @@
         </div>
         <div class="pres-block">
           <input type="checkbox" id="modal-viva" class="modal-state" />
-          <article class="pres-card glass-panel reveal pres-card--pending" style="--delay: 0.3s">
-            <p class="pres-card__badge pres-card__badge--pending" aria-label="Status">Upcoming</p>
-            <h3 class="pres-card__title">Final viva</h3>
+          <article class="pres-card glass-panel reveal" style="--delay: 0.3s">
+            <p class="pres-card__badge" aria-label="Status">Completed</p>
+            <h3 class="pres-card__title">Final presentation</h3>
             <p class="pres-card__text">Final thesis defense deck: system demonstrations, pedagogical contributions, ethical safeguards, and future school deployment.</p>
             <div class="pres-card__foot">
-              <label class="btn btn--sm btn--ghost" for="modal-viva">Checklist</label>
-              <span class="btn btn--sm pres-card__placeholder" title="Add your viva deck link after the session">After viva</span>
+              <label class="btn btn--sm btn--ghost" for="modal-viva">Summary</label>
+              <a class="btn btn--sm btn--primary" href="resources/final%20presenation.pdf" download>Deck (PDF)</a>
             </div>
           </article>
-          <div class="modal" role="dialog" aria-modal="true" aria-label="Final viva checklist">
+          <div class="modal" role="dialog" aria-modal="true" aria-label="Final presentation summary">
             <label class="modal__backdrop" for="modal-viva" aria-hidden="true"></label>
             <div class="modal__panel">
               <label class="modal__close" for="modal-viva" title="Close" aria-label="Close">×</label>
-              <h3>Final viva</h3>
-              <p>Will cover the integrated Study Buddy STEM AI ecosystem (R26-IT-009): end-to-end student learning workflow, empirical RAG grounding against NIE textbooks, real-time emotion-aware adaptive quizzing, handwritten OCR synthesis, ethical AI safeguards, and future pilot studies across Sri Lankan schools.</p>
+              <h3>Final presentation (Viva)</h3>
+              <p>Comprehensive final viva presentation covering the integrated Study Buddy STEM AI ecosystem (R26-IT-009): end-to-end student learning workflow, empirical RAG grounding against NIE textbooks, real-time emotion-aware adaptive quizzing, handwritten OCR synthesis, ethical AI safeguards, and deployment roadmap for Sri Lankan schools.</p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Thesis -->
+    <section class="section section--thesis" id="thesis" aria-labelledby="thesis-heading">
+      <div class="section__header reveal">
+        <h2 class="section__title" id="thesis-heading">Thesis dissertations</h2>
+        <p class="section__lede">Final research dissertations submitted for the degree of B.Sc. (Hons) in Information Technology at the Faculty of Computing, SLIIT. Access the comprehensive group dissertation and each individual component thesis below.</p>
+      </div>
+
+      <!-- Group Thesis -->
+      <p class="team-section-label reveal" id="thesis-group-label" style="--delay: 0.05s">Group research dissertation · Project ID: R26-IT-009</p>
+      <div class="thesis-grid--group" aria-labelledby="thesis-group-label">
+        <article class="doc-card glass-panel glass-panel--featured reveal" style="--delay: 0.08s">
+          <div class="doc-card__header-row">
+            <span class="doc-card__type">Group Thesis · Master Dissertation · PDF</span>
+            <span class="badge badge--done">Completed</span>
+          </div>
+          <h3 class="doc-card__title">Study Buddy STEM AI: An AI-Powered Personalized, Adaptive &amp; Multimodal STEM Learning Ecosystem</h3>
+          <p class="doc-card__subtitle">Project ID: R26-IT-009 · Faculty of Computing, SLIIT</p>
+          <p class="doc-card__meta">
+            The collective master dissertation presenting the holistic Study Buddy STEM AI ecosystem designed for Sri Lankan GCE O/L students. Integrates syllabus-aligned RAG storytelling, bilingual voice conversational tutoring, real-time affective emotion monitoring, and handwritten notebook synthesis into a unified, high-performing educational web architecture.
+          </p>
+          <div class="doc-card__actions">
+            <a class="doc-card__dl" href="resources/thesis-%20R26-IT-009.pdf" download>
+              Download group thesis (PDF) <span class="doc-card__arrow" aria-hidden="true">↘</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Individual Component Theses -->
+      <p class="team-section-label reveal" id="thesis-ind-label" style="--delay: 0.1s">Individual component research theses</p>
+      <div class="doc-grid" aria-labelledby="thesis-ind-label">
+        <!-- Component 1 -->
+        <article class="doc-card glass-panel reveal" style="--delay: 0.12s">
+          <div class="doc-card__header-row">
+            <span class="doc-card__type">Component 1 · PDF</span>
+            <span class="doc-card__id">IT22087638</span>
+          </div>
+          <h3 class="doc-card__title">RAG-Based Personalized STEM Storytelling</h3>
+          <p class="doc-card__author">Elwitigala S.A.I.</p>
+          <p class="doc-card__meta">
+            Transforms dry STEM concepts into culturally relatable, contextual narratives using Retrieval-Augmented Generation (RAG) grounded strictly in Sri Lankan NIE textbooks with ChromaDB to eliminate hallucinations.
+          </p>
+          <a class="doc-card__dl" href="resources/thesis%20-%20IT22087638.pdf" download>
+            Download thesis <span class="doc-card__arrow" aria-hidden="true">↘</span>
+          </a>
+        </article>
+
+        <!-- Component 2 -->
+        <article class="doc-card glass-panel reveal" style="--delay: 0.16s">
+          <div class="doc-card__header-row">
+            <span class="doc-card__type">Component 2 · PDF</span>
+            <span class="doc-card__id">IT22136756</span>
+          </div>
+          <h3 class="doc-card__title">Multilingual Conversational AI &amp; Tutoring</h3>
+          <p class="doc-card__author">Manodya K.M.B.</p>
+          <p class="doc-card__meta">
+            An interactive bilingual voice &amp; text AI tutor combining lightweight quantized Qwen2.5 with Whisper ASR, offering real-time Socratic dialogue, voice feedback, and Sinhala/English explanation support.
+          </p>
+          <a class="doc-card__dl" href="resources/thesis%20-%20IT22136756.pdf" download>
+            Download thesis <span class="doc-card__arrow" aria-hidden="true">↘</span>
+          </a>
+        </article>
+
+        <!-- Component 3 -->
+        <article class="doc-card glass-panel reveal" style="--delay: 0.2s">
+          <div class="doc-card__header-row">
+            <span class="doc-card__type">Component 3 · PDF</span>
+            <span class="doc-card__id">IT22272768</span>
+          </div>
+          <h3 class="doc-card__title">Emotion-Aware Adaptive Assessment System</h3>
+          <p class="doc-card__author">Basnayaka W.B.M.D.K.</p>
+          <p class="doc-card__meta">
+            Real-time affective computing engine leveraging optimized YOLOv8 to detect frustration, confusion, and engagement, dynamically modulating quiz difficulty and providing encouraging pedagogical interventions.
+          </p>
+          <a class="doc-card__dl" href="resources/thesis-%20IT22272768.pdf" download>
+            Download thesis <span class="doc-card__arrow" aria-hidden="true">↘</span>
+          </a>
+        </article>
+
+        <!-- Component 4 -->
+        <article class="doc-card glass-panel reveal" style="--delay: 0.24s">
+          <div class="doc-card__header-row">
+            <span class="doc-card__type">Component 4 · PDF</span>
+            <span class="doc-card__id">IT22292568</span>
+          </div>
+          <h3 class="doc-card__title">Handwritten Content Analysis &amp; Synthesis</h3>
+          <p class="doc-card__author">Dilshan W.A.</p>
+          <p class="doc-card__meta">
+            A vision-language pipeline utilizing Gemma-4 Vision for OCR and diagram transcription of student notebooks, synthesizing messy notes into structured revision summaries and actionable study flashcards.
+          </p>
+          <a class="doc-card__dl" href="resources/thesis%20-%20IT22292568.pdf" download>
+            Download thesis <span class="doc-card__arrow" aria-hidden="true">↘</span>
+          </a>
+        </article>
       </div>
     </section>
 
@@ -399,6 +498,7 @@
         <form class="contact-form" action="https://formsubmit.co/it22136756@my.sliit.lk" method="post">
           <input type="hidden" name="_subject" value="Study Buddy STEM AI project site: new contact" />
           <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
           <input type="text" name="_honey" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <div class="field">
             <input class="field__input" type="text" name="name" id="c-name" placeholder=" " autocomplete="name" required />

@@ -1,0 +1,17 @@
+{
+  "name": "r26-it-009-resource-web",
+  "version": "1.0.0",
+  "description": "Study Buddy STEM AI (R26-IT-009) Project Resource Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "study-buddy",
+    "stem",
+    "ai",
+    "sliit"
+  ],
+  "author": "",
+  "license": "ISC"
+}

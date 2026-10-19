@@ -499,7 +499,7 @@ main {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0;
 }
 
 .hero__note {
@@ -1267,6 +1267,68 @@ main {
 
 body:has(input.modal-state:checked) {
   overflow: hidden;
+}
+
+/* ——— Thesis Section ——— */
+.thesis-grid--group {
+  margin-bottom: 2.75rem;
+}
+
+.glass-panel--featured {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(239, 246, 255, 0.85));
+  border: 1px solid rgba(13, 110, 253, 0.28);
+  box-shadow: 0 12px 35px -10px rgba(13, 110, 253, 0.16), var(--shadow-sm);
+  padding: 2.25rem 2rem;
+}
+
+.glass-panel--featured .doc-card__title {
+  font-size: 1.35rem;
+  margin-bottom: 0.35rem;
+  color: var(--text-dark);
+}
+
+.doc-card__header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.doc-card__header-row .doc-card__type {
+  margin-bottom: 0;
+}
+
+.doc-card__id {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  background: rgba(13, 110, 253, 0.08);
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.doc-card__subtitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.doc-card__author {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 0 0 0.65rem;
+}
+
+.doc-card__actions {
+  margin-top: 1.25rem;
+  max-width: 340px;
 }
 
 /* ——— Team ——— */
